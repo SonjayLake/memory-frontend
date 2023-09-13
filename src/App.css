@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  font-family: inherit;
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+html {
+  width: 100%;
+}
+
+.catCardImage {
+  height: 150px;
+  width: 150px;
+}
+
+#root,
+body {
+  background-color: #343d46;
+}
+
+.catContainer {
+  background-color: #343d46;
+}
+
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  gap: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.difficulties {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.score {
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.winFlag {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home {
+  margin-top: 50px;
+  width: 100px;
+}
